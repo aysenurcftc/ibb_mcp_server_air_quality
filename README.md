@@ -73,14 +73,14 @@ Add to `claude_desktop_config.json`:
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh   # macOS/Linux
 uv sync
-MCP_TRANSPORT=http uv run ibb-mcp   # HTTP mode (test için)
+MCP_TRANSPORT=http uv run ibb-mcp   
 ```
 
 ## Tests
 
 ```bash
-uv run python tests/test_unit.py       # internet gerekmez
-uv run python tests/test_ibb_api.py    # internet gerekir
+uv run python tests/test_unit.py      
+uv run python tests/test_ibb_api.py    
 ```
 
 ## License
